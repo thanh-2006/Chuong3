@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính tiền bán hàng</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tính tiền bán hàng</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên mặt hàng</th>
+                <th>Đơn giá</th>
+                <th>Số lượng có</th>
+                <th>Số lượng mua</th>
+                <th>Chọn mua</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sản phẩm A</td>
+                <td><span class="price">100</span>$</td>
+                <td>20</td>
+                <td><input type="number" class="quantity" value="0" min="0" max="20"></td>
+                <td><input type="checkbox" class="select"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sản phẩm B</td>
+                <td><span class="price">150</span>$</td>
+                <td>15</td>
+                <td><input type="number" class="quantity" value="0" min="0" max="15"></td>
+                <td><input type="checkbox" class="select"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sản phẩm C</td>
+                <td><span class="price">200</span>$</td>
+                <td>10</td>
+                <td><input type="number" class="quantity" value="0" min="0" max="10"></td>
+                <td><input type="checkbox" class="select"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <input type="checkbox" id="vat"> Tính VAT (10%)
+    </div>
+    <div>
+        <strong>Tổng cộng:</strong> <span id="total">0</span>$
+    </div>
+    <button id="calculate">OK</button>
+    <button id="reset">Nhập lại</button>
+    <script src="script.js"></script>
+</body>
+  </html>
