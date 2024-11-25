@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+input[type="number"] {
+    width: 60px;
+    text-align: center;
+}
+
+#vat {
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: blue;
+}
